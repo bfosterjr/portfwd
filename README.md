@@ -2,7 +2,7 @@
 
 ----------
 
-PORTFWD is a simple port forwarding / tunneling utility for Windows. Two instances of PORTFWD are required for tunneling mode and the data between the two will be XOR munged.
+PORTFWD is a simple TCP port forwarding / tunneling utility for Windows. Two instances of PORTFWD are required for tunneling mode and the data between the two will be XOR munged.
 
 PORTFWD can be built as both a standalone application or as a DLL to be used in other applications.
 
