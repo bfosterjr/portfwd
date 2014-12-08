@@ -34,6 +34,8 @@ BOOL WINAPI DllMain(
 
 #else
 
+#ifndef BUILD_LIB
+
 #include <stdio.h>
 #include "Xgetopt.h"
 
@@ -54,7 +56,6 @@ int main(int argc, char** argv)
     char*   lport       = NULL;
     char*   rport       = NULL;
     char*   raddress    = NULL;
-    BOOL    server      = FALSE;
     ULONG   xorKey      = 0;
 
     while ((c = getopt(argc, argv, "l:a:p:t")) != EOF)
@@ -90,4 +91,5 @@ int main(int argc, char** argv)
     }
 }
 
+#endif
 #endif

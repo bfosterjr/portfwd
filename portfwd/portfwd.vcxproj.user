@@ -16,11 +16,23 @@
     <LocalDebuggerCommandArguments>-l 777 -a localhost -p 888 -t</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_LIB|Win32'">
+    <LocalDebuggerCommandArguments>-l 777 -a localhost -p 888 -t</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|x64'">
     <LocalDebuggerCommandArguments>-l 777 -a localhost -p 888 -t</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_LIB|x64'">
+    <LocalDebuggerCommandArguments>-l 777 -a localhost -p 888 -t</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|ARM'">
+    <LocalDebuggerCommandArguments>-l 777 -a localhost -p 888 -t</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_LIB|ARM'">
     <LocalDebuggerCommandArguments>-l 777 -a localhost -p 888 -t</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
